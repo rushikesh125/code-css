@@ -1,0 +1,18 @@
+@import 'margins.css';
+@import 'padding.css';
+@import 'display.css';
+@import 'colors.css';
+@import 'bgcolors.css';
+@import 'buttons.css';
+@import 'fontweight.css';
+@import 'opacity.css';
+@import 'textdecoration.css';
+
+/* Small screen  */
+@media (width >=576px){}
+/* Medium Screen (tab */
+@media (width >=768px) {}
+/* Large Screen  */
+@media (width >=992px){}
+/* xl Screen Laptop  */
+@media (width >=1200px) {}

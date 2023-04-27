@@ -1,0 +1,153 @@
+@import "../style.css";
+
+.bi-list {
+    font-size: 25px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cpy-noti {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999999999999999999999;
+    background-color: black;
+    padding: 5px 10px;
+    color: var(--firstColor);
+    border-radius: 5px;
+}
+
+.disp-block {
+    display: block;
+}
+
+.disp-none {
+    display: none
+}
+
+.doc-left-menu {
+    background-color: rgb(34, 34, 34);
+}
+
+.documentation-aside-container {
+    float: left;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 15px;
+    position: fixed;
+    top: 50px;
+    width: 25%;
+    height: calc(100vh - 50px);
+    z-index: 9;
+    overflow-x: scroll;
+}
+
+
+/* small to tablet Size  */
+@media only screen and (max-width:991px) {
+    .documentation-aside-container {
+        display: none;
+    }
+
+    .code-container {
+        font-size: 15px;
+        height: auto;
+        max-height: 400px;
+        overflow: scroll;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .Doc-Container {
+        width: calc(100% - 25%);
+    }
+
+    .code-container {
+        font-size: 13px;
+        height: auto;
+        max-height: 600px;
+        overflow: scroll;
+    }
+
+    .output-container {
+        padding: 5px;
+        
+    }
+}
+
+.output-container {
+    margin: 2px;
+    /*border-color: gray;
+   border-style: solid;
+   border-width: 1px 0px 1px 0px;*/
+    padding: 5px 10px;
+}
+
+.copybtn-container {
+    padding: 5px;
+    background-color: gray;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.copy-btn {
+    border: 1px solid black;
+    outline: nones;
+    background: transparent;
+    padding: 3px 6px;
+    border-radius: 5px;
+    transition: background-color 0.6s ease-in-out;
+    float: right;
+    color: var(--firstColor);
+}
+
+.copy-btn:hover {
+    color: var(--secondColor);
+    background-color: black;
+}
+
+.copy-btn-text {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--firstColor);
+}
+
+.doc-page-title {
+    background: linear-gradient(to right, var(--firstColor), var(--secondColor));
+    margin: 5px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aside-Contents-heading {
+    font-size: 25px;
+    padding:5px 10px;
+    font-weight: 600;
+    color:white;
+}
+
+.bi-book-half {
+    color: var(--firstColor)
+}
+.bi-braces-asterisk{
+    color:var(--secondColor)
+}
+.aside-contents-items {
+    list-style-type: none;
+    /* text-align: center; */
+    /* margin:5px 0px; */
+}
+
+.aside-contents-items a {
+    text-decoration: none;
+    font-size:20px;
+    
+}
+.crt-page{
+    color:var(--firstColor)
+}

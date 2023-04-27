@@ -1,0 +1,20 @@
+.Btn1 {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Btn2 {
+    margin: 5px;
+    padding: 7px 20px;
+    border: none;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.Btn3 {
+    margin: 5px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 50px;
+}

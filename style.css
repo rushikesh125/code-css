@@ -1,0 +1,293 @@
+@import 'style2.css';
+@import 'documentation/docstyle.css';
+/* default  */
+/* --firstColor: rgb(95, 244, 255);
+--secondColor:rgba(255, 0, 235, 1);  */
+:root {
+    --firstColor: rgb(95, 244, 255);
+    --secondColor:rgba(255, 0, 235, 1);
+}
+
+body {
+    color: white;
+    background-color: black;
+    /* overflow:hidden; */
+}
+
+a {
+    color: white;
+}
+
+.left-sidebarMenu {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+/* desktop Screen style  */
+@media screen and (min-width: 992px) {
+    .left-sidebarMenu {
+        display: none;
+    }
+
+    .navbar-logoHyperlink:hover {
+        transform: translate(0) scale(1.2);
+    }
+
+    /* .main-page-Logo{
+        position: relative;
+        top: 40px;
+        z-index: 5;
+    } */
+
+    .Dynamic-text {
+        position: absolute;
+        top: 25%;
+    }
+
+    .main-page {
+        background: url("images/backgroun-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    .bi-arrow-right-circle{
+        font-size:200px !important;
+    }
+    
+    .include-link{
+        width:85%;
+        outline:none;
+        border:none;
+        border-radius:2px;
+        margin-top:5px;
+        background-color:rgb(51, 51, 51);
+        color:white;
+    }
+    
+}
+
+
+/* Table Scree */
+@media screen and (max-width:991px) {
+    .main-page {
+        height: 700px;
+    }
+
+    .Dynamic-text {
+        position: relative;
+        top: -100px;
+    }
+    .navbar-logoHyperlink {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0) scale(1);
+    }
+
+    .navbar-logoHyperlink:hover {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%) scale(1.2);
+    }
+
+    .main-page {
+        background: url("images/backgroun-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 300px;
+        height: 450px;
+    }
+    .bi-arrow-right-circle{
+       display: none;
+    }
+    .include-link{
+        width:75%;
+        outline:none;
+        border:none;
+        border-radius:2px;
+        margin-top:5px;
+        background-color:rgb(51, 51, 51);
+        color:white;
+    }
+}
+
+.nav-opt-documentation {
+    background: linear-gradient(to right, #8dffec, rgb(86, 255, 255));
+    text-shadow:2px 2px 5px var(--firstColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pages-headings{
+    background: linear-gradient(to right, var(--firstColor), var(--secondColor));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#navbarSupportedContent ul li a,
+.offcanvas-body ul li a {
+    font-weight: 500;
+    margin: 5px 10px;
+    text-transform: uppercase;
+}
+
+
+/* small Size Screen  */
+@media screen and (max-width: 600px) {
+    .navbar-logoHyperlink {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0) scale(1);
+    }
+
+    .navbar-logoHyperlink:hover {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%) scale(1.2);
+    }
+
+    .Dynamic-text {
+        position: relative;
+        top: -40px;
+    }
+
+    .main-page {
+        background: url("images/backgroun-img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 300px;
+        max-height: 300px;
+    }
+
+    /* .nav-opt-documentation{
+        background: linear-gradient(to right, #ae00ff,rgb(86, 255, 255));
+        text-shadow: 0px 2px 6px rgba(27, 27, 27, 0.767);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } */
+    .bi-arrow-right-circle{
+        display: none;
+    }
+    .include-link{
+        width:70%;
+        outline:none;
+        border:none;
+        border-radius:2px;
+        margin-top:5px;
+        background-color:rgb(51, 51, 51);
+        color:white;
+    }
+}
+
+
+.Main-title {
+    margin-top: 5rem;
+
+}
+
+.Main-title h1 {
+    font-size: 6.5vw;
+    background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+    background-position: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*     text-shadow: 5px 5px 4px black;*/
+}
+
+.bg-body-tertiary {
+    padding: 0px;
+}
+
+.navbar-logoHyperlink,
+.navbar-logoHyperlink>img {
+    transition: all 500ms ease-in;
+}
+
+.navbar-logoHyperlink>img:hover {
+    transform: rotate(-7deg);
+}
+
+#NavigationBar {
+    /* background: rgb(2, 24, 255); */
+    background: linear-gradient(135deg, var(--firstColor) 0%, var(--secondColor) 100%);
+    position: sticky;
+    z-index: 1000;
+    top: 0px;
+}
+
+
+.Dynamic-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, var(--firstColor), var(--secondColor));
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.main-page-Logo {
+    position: relative;
+    top: 80px;
+    z-index: 5;
+}
+
+#offcanvasRight {
+    background: linear-gradient(to bottom, var(--firstColor), var(--secondColor));
+}
+
+.bi-github {
+    font-size: 25px;
+    margin: 5px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: color 400ms ease-in-out;
+    display: inline-block;
+}
+
+.bi-github:hover {
+    color: var(--firstColor);
+}
+
+.pageActive {
+    border-bottom: 1px solid white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 5px;
+}
+
+
+.copy-btn{
+    border-radius:5px;
+    outline:none;
+    border:none;
+    background-color:rgb(51, 51, 51);
+    color:var(--firstColor);
+    margin:5px;
+    /* width:15%; */
+}
+.copy-btn:hover{
+    box-shadow:0px 0px 3px gray;
+}
+
+.footer{
+    padding:5px 0;
+    margin:0px;
+    /* height:250px; */
+    background-color: rgb(41, 41, 41);
+}
