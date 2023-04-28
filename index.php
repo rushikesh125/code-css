@@ -24,7 +24,7 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
       <img src="images/LogoCss.png" class="main-page-Logo col-lg-10 mt-lg-5">
       <h1 class="col-12 text-center Dynamic-text">
         Contents We offer:
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Buttons", "Cards", "Tables.", "Margins","Colors","SideBars","Navigations" ]'>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Colors", "bg-colors", "Margins.", "Paddings","Display","Buttons","Font weight" ,"text decoration","objet fit" , "Sizing" ]'>
           <span class="wrap"></span>
         </a>
       </h1>
@@ -59,13 +59,13 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
         <div class="row">
           <h3 class="pages-headings">
             <i class="bi bi-cloud-arrow-down-fill"></i>
-            Download Zip File
+            Download Stylesheet 
           </h3>
-          <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package managed installs don’t include documentation or our full build scripts. You can also use our npm template repo to quickly generate a Bootstrap project via npm.
+          <p>Install CodeCSS source Cascading Stylesheet file,include documentation or our full build scripts. You can also use our boiler plate template to quickly inlude stylesheet .
           </p>
-          <button class="btn m-2 bg-primary col-6 text-white">
+          <a href="https://drive.google.com/u/2/uc?id=1Ykyp_4pF8PRzZuT4bWv1FmeamA-yP1TD&export=download" class="btn mt-5 btn-primary col-6 text-white">
             Download
-          </button>
+          </a>
         </div>
       </div>
 
@@ -75,13 +75,13 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
             <i class="bi bi-code-slash"></i>
             Include Links in Header
           </h3>
-          <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr. See it in action with our simple quick start, or browse the examples to jumpstart your next project. You can also choose to include Popper and our JS separately.
+          <p>When you only need to include CodeCSS compiled CSS, you can just use  our CDN Link in your HTML starter template. See it in action with our simple quick start, or browse the examples to jumpstart your next project. and Start your project with one of the Light weight Framework out there in the market.
           </p>
           <!-- <button class="btn m-2 bg-primary col-6 text-white">
           Download
         </button> -->
           <div class="col-12">
-            <input class="include-link link-one" type="text" value='<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">'>
+            <input class="include-link link-one" type="text" value='<link rel="stylesheet" href="https://res.cloudinary.com/dfd8lufs5/raw/upload/v1682667981/maincontainer_ythuvr.css">'>
             <button class="copy-btn copybtn-1">
               <i class="bi bi-clipboard-fill"></i>
               Copy
@@ -106,34 +106,7 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
               });
             </script>
           </div>
-          <div class="col-12">
-            <input class="include-link link-two" type="text" value='<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>'>
-            <button class="copy-btn copybtn-2">
-              <i class="bi bi-clipboard-fill"></i>
-              Copy
-            </button>
-
-            <script>
-              copyBtn[1] = document.querySelector('.copybtn-2');
-              console.log(copyBtn[0]);
-              copyText[1] = document.querySelector('.link-two').value;
-              copyBtn[1].addEventListener('click', () => {
-                navigator.clipboard.writeText(copyText[1]).then(() => {
-                  document.querySelector('.cpy-noti').classList.add("disp-block");
-                  document.querySelector('.cpy-noti').classList.remove("disp-none");
-                  setTimeout(() => {
-                    document.querySelector('.cpy-noti').classList.add("disp-none");
-                    document.querySelector('.cpy-noti').classList.remove("disp-block");
-                  }, 2000)
-                  // console.log(copyText[0]);
-                }).catch((error) => {
-                  console.error('Failed to copy text: ', error);
-                });
-              });
-            </script>
-
-          </div>
+          
         </div>
       </div>
     </div>
@@ -192,15 +165,14 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
-    &lt;title&gt;My 2 Website&lt;/title&gt;
+    &lt;title&gt;Document&lt;/title&gt;
     &lt;!--Code Css : Style Link--&gt;
-    &lt;link rel="stylesheet" type="text/css" href="documentation/indexone.css"&gt;
+    &lt;link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/dfd8lufs5/raw/upload/v1682667981/maincontainer_ythuvr.css"&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;Welcome to my website!&lt;/p&gt;
   &lt;/body&gt;
    &lt!--Code Css : JavaScript Link--&gt;
-  &lt;script src="script.js"&gt; &lt;/script&gt;
 &lt;/html&gt;
 <!-- Sourc Code Ends  -->
                 </code>

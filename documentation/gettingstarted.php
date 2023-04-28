@@ -43,13 +43,13 @@
 &lt;html&gt;
   &lt;head&gt;
     &lt;title&gt;Document&lt;/title&gt;
-    &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    &lt;!--Code Css : Style Link--&gt;
+    &lt;link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/dfd8lufs5/raw/upload/v1682667981/maincontainer_ythuvr.css"&gt;
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p&gt;Welcome to my website!&lt;/p&gt;
   &lt;/body&gt;
-  &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"&gt;&lt;/script&gt;
+   &lt!--Code Css : JavaScript Link--&gt;
 &lt;/html&gt;
 <!-- Sourc Code Ends  -->
                 </code>
@@ -92,7 +92,7 @@
       <div class="code-parent">
         <pre>
                 <code class="language-html element-to-copy2">
-&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+&lt;link rel="stylesheet" href="https://res.cloudinary.com/dfd8lufs5/raw/upload/v1682667981/maincontainer_ythuvr.css"&gt;
                 </code>
             </pre>
       </div>
@@ -116,41 +116,7 @@
     </script>
 
     <!-- Example Code Container Starts Here  -->
-    <div class="output-container">
 
-
-    </div>
-    <!-- Example Code Container Ends Here  -->
-    <div class="col-12 code-container m-1">
-
-      <div class="col-12 copybtn-container"> <button class="copy-btn-text">JavaScript CND Link</button> <button class="copy-btn Copy-Btn3"><i class="bi
-                bi-clipboard2-fill"></i>Copy</button>
-      </div>
-      <div class="code-parent">
-        <pre>
-                <code class="language-html element-to-copy3">
-&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"&gt;&lt;/script&gt;
-                </code>
-            </pre>
-      </div>
-    </div>
-    <!-- code For Copy HTML Source Code  -->
-    <script>
-      copyBtn[3] = document.querySelector('.Copy-Btn3');
-      copyText[3] = document.querySelector('.element-to-copy3').textContent;
-      copyBtn[3].addEventListener('click', () => {
-        navigator.clipboard.writeText(copyText[3]).then(() => {
-          document.querySelector('.cpy-noti').classList.add("disp-block");
-          document.querySelector('.cpy-noti').classList.remove("disp-none");
-          setTimeout(() => {
-            document.querySelector('.cpy-noti').classList.add("disp-none");
-            document.querySelector('.cpy-noti').classList.remove("disp-block");
-          }, 2000)
-        }).catch((error) => {
-          console.error('Failed to copy text: ', error);
-        });
-      });
-    </script>
 
   </div>
 
