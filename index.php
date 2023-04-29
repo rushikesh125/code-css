@@ -63,7 +63,7 @@ $CurrentPage = basename($_SERVER['PHP_SELF']);
           </h3>
           <p>Install CodeCSS source Cascading Stylesheet file,include documentation or our full build scripts. You can also use our boiler plate template to quickly inlude stylesheet .
           </p>
-          <a href="https://drive.google.com/u/2/uc?id=1Ykyp_4pF8PRzZuT4bWv1FmeamA-yP1TD&export=download" class="btn mt-5 btn-primary col-6 text-white">
+          <a href="https://drive.google.com/u/2/uc?id=1Ykyp_4pF8PRzZuT4bWv1FmeamA-yP1TD&export=download" class="btn mt-5 ms-3 btn-primary col-6 text-white">
             Download
           </a>
         </div>

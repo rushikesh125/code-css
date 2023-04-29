@@ -117,7 +117,7 @@
 
              <!-- Example Code Container Starts Here  -->
         <div class="output-container">
-                <div class="mleft-100" style="border:1px solid white;padding:5px 10px;display:inline-block;"> Element With Left 100 Margin</div>
+                <div class="mleft-100 bg-primary text-white btn" style="display:inline-block;"> Element With Left 100 Margin</div>
 
         </div>
 <!-- Example Code Container Ends Here  -->
